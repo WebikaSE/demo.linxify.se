@@ -1,0 +1,23 @@
+#ads {
+  width: 100%;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 40px;
+}
+
+.ads {
+  width: 100%;
+}
+
+.ads img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+#ads__container .h2-head {
+  padding: 20px 0;
+}
