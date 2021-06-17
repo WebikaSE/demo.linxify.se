@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 95%;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li,
+li > a,
+.search {
+  min-width: 130px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+svg {
+  width: 25px;
+  height: auto;
+}
+
+#top__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vh;
+  font-size: 0.8rem;
+}
+
+/* main menu */
+
+.div__logo {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.hmlogo {
+  width: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+.center__menu {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/* Main body */
+#main__body {
+  width: 100%;
+  display: flex;
+}
+
+p.text-women {
+  font-weight: 700;
+}
+
+p.text-seeall {
+  color: red;
+}
+
+.left__vertical {
+  width: 20%;
+  line-height: 2rem;
+}
+
+.right__content {
+  width: 80%;
+}
+
+.sale {
+  text-align: center;
+  height: 30vh;
+  background-color: rgb(192, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

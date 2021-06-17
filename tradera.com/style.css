@@ -155,3 +155,8 @@ input {
 #categories__links a:hover {
   background-color: var(--main-bg);
 }
+
+/* Single product page css */
+.ads img {
+  width: 400px;
+}
