@@ -32,6 +32,7 @@ li > a,
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 svg {
@@ -70,6 +71,7 @@ svg {
 }
 
 /* Main body */
+/* Two columns, sale badge */
 #main__body {
   width: 100%;
   display: flex;
@@ -84,20 +86,57 @@ p.text-seeall {
 }
 
 .left__vertical {
-  width: 20%;
+  width: 15%;
   line-height: 2rem;
 }
 
 .right__content {
-  width: 80%;
+  width: 85%;
 }
 
 .sale {
   text-align: center;
-  height: 30vh;
+  height: 15vh;
   background-color: rgb(192, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  width: 100%;
+}
+
+/* Product grid */
+.category {
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+.grid__products {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.grid__products a img {
+  max-width: 380px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.grid__products p {
+  color: red;
+}
+
+.product__description {
+  line-height: 1.5rem;
+}
+
+.product__price,
+.product__colors {
+  display: flex;
+}
+
+.product__price {
+  gap: 20px;
 }
