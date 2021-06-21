@@ -4,9 +4,192 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Payment</title>
+    <link rel="icon" type="image/png" href="./images/hmfavicon.png" />
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping bag</title>
   </head>
   <body>
-    <h1>Hi from Payment</h1>
+    <header>
+      <section id="top__menu">
+        <nav class="left__menu">
+          <ul>
+            <li>Kundservice</li>
+            <li>Nyhetsbrev</li>
+            <li>Hitta butik</li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
+                />
+              </svg>
+            </li>
+          </ul>
+        </nav>
+        <nav class="right__menu">
+          <ul>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                /></svg
+              >Mitt konto
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                /></svg
+              >Favoriter
+            </li>
+            <li>
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  /></svg
+                >Shopping bag (4)
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section class="main__menu">
+        <div class="div__logo">
+          <img class="hmlogo" src="./images/hmlogo.png" alt="logo" />
+        </div>
+        <nav class="center__menu">
+          <ul>
+            <li>Dam</li>
+            <li>Herr</li>
+            <li>Divided</li>
+            <li>Baby</li>
+            <li>Barn</li>
+            <li>H&M HOME</li>
+            <li>Rea</li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <h2 class="shoppingbag">Shopping bag</h2>
+    <div class="payment__main">
+      <div class="p1">
+        <div class="product__box">
+          <div class="product-pic">
+            <img
+              src="https://res.cloudinary.com/cubbans-cloud/image/upload/v1624311683/hm/Screenshot_at_Jun_21_23-39-40_cr41zd.png"
+              alt=""
+            />
+          </div>
+          <div class="product-detail">
+            <b>Linne</b>
+            <p>Art.nr: 0836095004</p>
+            <p>Totalsumma: 149,00 kr.</p>
+          </div>
+        </div>
+        <div class="product__box">
+          <div class="product-pic">
+            <img
+              src="https://res.cloudinary.com/cubbans-cloud/image/upload/v1624311684/hm/Screenshot_at_Jun_21_23-40-44_chjx4c.png"
+              alt=""
+            />
+          </div>
+          <div class="product-detail">
+            <b>Linne</b>
+            <p>Art.nr: 0836095004</p>
+            <p>Totalsumma: 149,00 kr.</p>
+          </div>
+        </div>
+        <div class="product__box">
+          <div class="product-pic">
+            <img
+              src="https://res.cloudinary.com/cubbans-cloud/image/upload/v1624311683/hm/Screenshot_at_Jun_21_23-39-52_kl9rjy.png"
+              alt=""
+            />
+          </div>
+          <div class="product-detail">
+            <b>Linne</b>
+            <p>Art.nr: 0836095004</p>
+            <p>Totalsumma: 149,00 kr.</p>
+          </div>
+        </div>
+        <div class="product__box">
+          <div class="product-pic">
+            <img
+              src="https://res.cloudinary.com/cubbans-cloud/image/upload/v1624311684/hm/Screenshot_at_Jun_21_23-40-12_kwqdbm.png"
+              alt=""
+            />
+          </div>
+          <div class="product-detail">
+            <b>Linne</b>
+            <p>Art.nr: 0836095004</p>
+            <p>Totalsumma: 149,00 kr.</p>
+          </div>
+        </div>
+      </div>
+      <div class="p2">
+        <div class="sumbox">
+          <b>Summa</b>
+          <b>299,00 kr.</b>
+        </div>
+        <div class="checkout__box">
+          <h3>Logga in på Linxify</h3>
+          <img
+            src="https://res.cloudinary.com/cubbans-cloud/image/upload/v1624313915/hm/linxify_bxwknx.jpg"
+            alt=""
+            width="80px"
+          />
+          <p>
+            Ange dina uppgifter för att verifiera din identitet och slutföra
+            ditt köp.
+          </p>
+          <form action="">
+            
+            <input action="" type="text" placeholder="ÅÅMMDD-NNNN"></input>
+          </form>
+          <button class="checkout">Påbörja inloggning</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
