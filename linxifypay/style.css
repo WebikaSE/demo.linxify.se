@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  border-bottom: 1px lightgrey solid;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.linxifylogo {
+  width: 200px;
+}
+
+.login-btn {
+  background-color: grey;
+  padding: 15px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
