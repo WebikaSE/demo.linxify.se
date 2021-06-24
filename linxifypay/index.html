@@ -25,7 +25,23 @@
         </ul>
       </nav>
     </header>
-    <h1>Logga in</h1>
-    <div class="bankid"></div>
+    <h1>Beställ order</h1>
+    <div class="bankid">
+      <h3>Mobilt BankID</h3>
+      <form action="">
+        <div class="bankid__box">
+          <input
+            type="text"
+            inputmode="numeric"
+            pattern="[0-9]*"
+            maxlength="12"
+            autocorrect="off"
+            placeholder="Personnummer (YYMMDDXXXX)"
+          />
+          <img class="bankid-icon" src="./img/logo-bank-id.svg" alt="" />
+        </div>
+        <button class="signin" type="submit">Signera</button>
+      </form>
+    </div>
   </body>
 </html>

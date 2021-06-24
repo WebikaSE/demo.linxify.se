@@ -17,9 +17,6 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-}
-
-li {
   list-style: none;
 }
 
@@ -28,7 +25,7 @@ li {
 }
 
 .login-btn {
-  background-color: grey;
+  background-color: #0073b1;
   padding: 15px;
   color: white;
 }
@@ -36,4 +33,63 @@ li {
 h1 {
   text-align: center;
   padding: 20px;
+}
+
+.bankid {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  height: 30vh;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.bankid > h3 {
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #0073b1;
+  color: white;
+}
+
+form {
+  max-width: 80%;
+  padding: 2rem;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.bankid__box {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.bankid-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.3rem;
+  width: 30px;
+  height: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.signin {
+  width: 100%;
+  border-radius: 30px;
+  padding: 0.8rem;
+  border: none;
+  background-color: #0073b1;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
