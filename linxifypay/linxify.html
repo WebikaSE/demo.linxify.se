@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./img/linxify.png" />
+    <link rel="stylesheet" href="linxify.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Order Summary</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <img class="linxifylogo" src="./img/linxifylogo.png" alt="" />
+          </li>
+          <li class="logout-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="#0073b1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="summary">
+      <div class="logobox">
+        <img class="linxify2" src="./img/linxifylogo.png" alt="" />
+      </div>
+      <div class="head-summary"><h3>Försäljningskvitto</h3></div>
+      <div class="date-summary">Datum : 20 juni 2021</div>
+      <div class="address-summary">
+        <div class="buyer-col">
+          <h3>Köpare:</h3>
+          <p>Martin Larsson</p>
+          <p>Järnvägsgatan 7</p>
+          <p>252 24, Helsingborg</p>
+        </div>
+        <div class="seller-col">
+          <h3>Säljare:</h3>
+          <p>Jane Doe</p>
+          <p>Storgatan 22</p>
+          <p>211 42, Malmö</p>
+        </div>
+        <div></div>
+      </div>
+      <div class="payment-delivery">
+        <div class="paymentmethod">
+          <h3>betalningssätt</h3>
+          <p>Faktura</p>
+        </div>
+        <div class="delivery">
+          <h3>Leveranssätt</h3>
+          <p>PostNord Package</p>
+        </div>
+      </div>
+
+      <table>
+        <tr class="heading-row">
+          <th class="product">Produkter</th>
+          <th>Antal</th>
+          <th>Pris i SEK</th>
+        </tr>
+        <!-- Products -->
+        <tr>
+          <td>Produkt 1</td>
+          <td class="number">1</td>
+          <td class="price">199</td>
+        </tr>
+        <tr>
+          <td>Produkt 1</td>
+          <td class="number">1</td>
+          <td class="price">199</td>
+        </tr>
+        <tr>
+          <td>Produkt 1</td>
+          <td class="number">1</td>
+          <td class="price">199</td>
+        </tr>
+        <tr>
+          <td>Produkt 1</td>
+          <td class="number">1</td>
+          <td class="price">199</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
