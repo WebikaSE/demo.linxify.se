@@ -61,13 +61,13 @@
 
       <form>
         <label style="font-weight: bold;">Namn:</label><hr style="visibility: hidden; padding: 5px 0; padding-bottom: 0!important;">
-        <input style="padding: 5px; width: 300px;" placeholder="Namn" type="text"><br>
+        <label style="padding: 5px; width: 300px;">John Appleseed</label><br>
         <hr style="visibility: hidden; padding: 5px 0;">
         <label style="font-weight: bold;">E-post:</label><hr style="visibility: hidden; padding: 5px 0; padding-bottom: 0!important;">
-        <input style="padding: 5px; width: 300px;" placeholder="E-post" type="text"><br>
+        <label style="padding: 5px; width: 300px;">john.appleseed@linxify.se</label><br>
         <hr style="visibility: hidden; padding: 5px 0;">
         <label style="font-weight: bold;">Telefonnummer:</label><hr style="visibility: hidden; padding: 5px 0; padding-bottom: 0!important;">
-        <input style="padding: 5px; width: 300px;" placeholder="Telefonnummer" type="text"><br>
+        <label style="padding: 5px; width: 300px;">+46 70 123 45 67</label><br>
       </form>
 
       <div class="head-summary">
@@ -75,15 +75,6 @@
       </div>
 
       <form>
-        <input name="deliveryChoice" type="radio">
-        <label>Postnord Hemleverans</label><img src="/linxifypay/linxify-confirmation/delivery-logos/PostNord.png" style="padding-left: 10px; width: auto; height: 20px;" alt="PostNord"><br>
-        <input name="deliveryChoice" type="radio">
-        <label>Bring</label><img src="/linxifypay/linxify-confirmation/delivery-logos/Bring.png" style="padding-left: 10px; width: auto; height: 20px;" alt="Bring"><br>
-        <input name="deliveryChoice" type="radio">
-        <label>DHL</label><img src="/linxifypay/linxify-confirmation/delivery-logos/DHL.png" style="padding-left: 10px; width: auto; height: 20px;" alt="DHL"><br>
-        <input name="deliveryChoice" type="radio">
-        <label>Best Hemleverans</label><img src="/linxifypay/linxify-confirmation/delivery-logos/Best.png" style="padding-left: 10px; width: auto; height: 20px;" alt="Best"><br>
-        <input name="deliveryChoice" type="radio">
         <label>Instabox</label><img src="/linxifypay/linxify-confirmation/delivery-logos/Instabox.png" style="padding-left: 10px; width: auto; height: 20px;" alt="Instabox">
       </form>
 
@@ -92,28 +83,14 @@
       </div>
 
       <form>
-        <input name="emballage" type="radio">
-        <label>Bubbelplast</label><br>
-        <input name="emballage" type="radio">
-        <label>Invändig Packning:</label><br>
-        <input name="emballage" type="radio">
         <label>Dubbel-(Over)</label><br>
-        <input name="emballage" type="radio">
-        <label>Transportväska</label>
       </form>
 
       <div class="head-summary">
         <h3>Betalsätt</h3>
       </div>
       <form>
-        <input name="paymentChoice" type="radio">
-        <label>Swish</label><img src="/linxifypay/linxify-confirmation/payment-logos/Swish.svg" style="padding-left: 10px; width: auto; height: 20px;" alt="Swish"><br>
-        <input name="paymentChoice" type="radio">
-        <label>Direktbetalning</label><img src="/linxifypay/linxify-confirmation/payment-logos/Trustly.png" style="padding-left: 10px; width: auto; height: 20px;" alt="Direct Card Payment"><br>
-        <input name="paymentChoice" type="radio">
-        <label>Banköverföring</label><img src="/linxifypay/linxify-confirmation/payment-logos/VisaAndMasterCard.png" style="padding-left: 10px; width: auto; height: 20px;" alt="Visa & Mastercard Payment"><br>
-        <input name="paymentChoice" type="radio">
-        <label>Klarna Delbetalning</label><img src="/linxifypay/linxify-confirmation/payment-logos/KlarnaPayLater.png" style="padding-left: 10px; width: auto; height: 20px;" alt="Klarna">
+        <label>Klarna Delbetalning</label><img src="/linxifypay/linxify-confirmation/payment-logos/KlarnaPayLater.png" style="padding-left: 10px; width: auto; height: 30px;" alt="Klarna">
       </form>
 
       <div class="head-summary">
@@ -125,31 +102,24 @@
           Försäkra din vara i 1 månad i samarbete med Linxify anslutet försäkringsbolag. <a style="font-weight: lighter;
           color: #2196f3;" href="">Läs mer</a>
         </p>
-        <button style="cursor: pointer; padding: 10px 30px;
+        <button style="padding: 10px 30px;
         font-size: 22px;
         border-radius: 50px;
         border: none;
         background-color: #ff9800;
         color: white;
         font-weight: lighter;">Ja Tack</button>
-        <button style="cursor: pointer; padding: 10px 30px;
-        font-size: 22px;
-        border-radius: 50px;
-        border: none;
-        background-color: #9e9e9e;;
-        color: white;
-        font-weight: lighter;">Nej Tack</button>
       </form>
 
       <div style="display: flex;">
-        <a style="width: 100%" href="/linxifypay/linxify-confirmation/confirm.html">
+        <a style="width: 100%" href="/linxifypay/index.html">
           <button style="cursor: pointer; border-right: 2px solid white!important; font-size: 20px;
           color: white;
           border: none; background-color: #13a4da; border-bottom-left-radius: 50px;
-          border-top-left-radius: 50px; padding: 20px; width: 100%;">Gå Vidare</button>
+          border-top-left-radius: 50px; padding: 20px; width: 100%;">Godkänn</button>
         </a>
 
-        <a style="width: 100%" href="/index.html">
+        <a style="width: 100%" href="/linxifypay/linxify-confirmation/index.html">
           <button style="cursor: pointer; border-right: 2px solid white!important; font-size: 20px;
           color: white;
           border: none; border-top-right-radius: 50px;
