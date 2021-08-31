@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" type="image/png" href="/linxifypay/img/linxify.png" />
+  <link rel="stylesheet" href="/linxifypay/linxify.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+</head>
+
+<style>
+  .head-summary {
+    width: 100%!important;
+    text-align: left!important;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 0 20px 0 20px;
+    color: white;
+    background-color: #0073b1;
+    opacity: 0.8;
+  }
+
+  form {
+    padding: 20px 10px;
+    padding-top: 15px!important;
+  }
+</style>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <img class="linxifylogo" src="/linxifypay/img/linxifylogo.png" alt="" />
+        </li>
+        <li class="logout-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#0073b1">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="summary">
+    <div class="logobox">
+      <img class="linxify2" src="/linxifypay/img/linxifylogo.png" alt="" />
+    </div>
+
+    <div>
+      <div class="head-summary">
+        <h3>Kunduppgifter</h3>
+      </div>
+
+      <form>
+        <label>Namn:</label><br>
+        <input type="text"><br>
+        <label>E-post:</label><br>
+        <input type="text"><br>
+        <label>Telefonnummer:</label><br>
+        <input type="text"><br>
+      </form>
+
+      <div class="head-summary">
+        <h3>Fraktsätt</h3>
+      </div>
+
+      <form>
+        <input name="deliveryChoice" type="radio">
+        <label>Postnord Hemleverans</label><br>
+        <input name="deliveryChoice" type="radio">
+        <label>Bring</label><br>
+        <input name="deliveryChoice" type="radio">
+        <label>DHL</label><br>
+        <input name="deliveryChoice" type="radio">
+        <label>Best Hemleverans</label><br>
+        <input name="deliveryChoice" type="radio">
+        <label>Instabox</label>
+      </form>
+
+      <div class="head-summary">
+        <h3>Typ av Emballage</h3>
+      </div>
+
+      <form>
+        <input name="emballage" type="radio">
+        <label>Bubbelplast</label><br>
+        <input name="emballage" type="radio">
+        <label>Invändig Packning:</label><br>
+        <input name="emballage" type="radio">
+        <label>Dubbel-(Over)</label><br>
+        <input name="emballage" type="radio">
+        <label>Transportväska</label>
+      </form>
+
+      <div class="head-summary">
+        <h3>Betalsätt</h3>
+      </div>
+      <form>
+        <input name="paymentChoice" type="radio">
+        <label>Swish</label><br>
+        <input name="paymentChoice" type="radio">
+        <label>Kort</label><br>
+        <input name="paymentChoice" type="radio">
+        <label>Banköverföring</label><br>
+        <input name="paymentChoice" type="radio">
+        <label>Klarna Delbetalning</label>
+      </form>
+
+      <div class="head-summary">
+        <h3>Tilläggsförsäkring</h3>
+      </div>
+      <form>
+        <p style="padding-bottom: 10px;
+        font-weight: bolder;">
+          Försäkra din vara i 1 månad i samarbete med Linxify anslutet försäkringsbolag. <a style="font-weight: lighter;
+          color: #2196f3;" href="">Läs mer</a>
+        </p>
+        <button style="cursor: pointer; padding: 10px 30px;
+        font-size: 22px;
+        border-radius: 50px;
+        border: none;
+        background-color: #ff9800;
+        color: white;
+        font-weight: lighter;">Ja Tack</button>
+        <button style="cursor: pointer; padding: 10px 30px;
+        font-size: 22px;
+        border-radius: 50px;
+        border: none;
+        background-color: #9e9e9e;;
+        color: white;
+        font-weight: lighter;">Nej Tack</button>
+      </form>
+
+    </div>
+
+    <section class="company-detail">
+      <div>
+        <h4>Linxify</h4>
+        <p>Org nr 559216-1466</p>
+      </div>
+      <div>
+        <h4>kundservice</h4>
+        kundservice@linxify.se
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>Redaregatan 2</p>
+        <p>25225 Helsingborg</p>
+      </div>
+      <div>
+        <h4>Social Media</h4>
+        <p>LinkedIn</p>
+      </div>
+    </section>
+  </section>
+
+</body>
+
+</html>
