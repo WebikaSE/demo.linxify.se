@@ -153,6 +153,163 @@
 
     <hr style="margin: 20px 200px;">
 
+    <div class="container-fluid">
+        <div style="display: flex; justify-content: space-between; padding: 0px 0;">
+            <h5>Filter</h5>
+            <p style="cursor: pointer; color: #007f49;">Återställ</p>
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a
+                        style="background: #2d7f49; color: white; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                        class="page-link" href="#">Säljes</a></li>
+                <li class="page-item"><a
+                        style="background: white; color: #2d7f49; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                        class="page-link" href="#">Sökes</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div style="display: flex; flex-direction: row;">
+            <div style="padding-right: 10px;">
+                <h6 style="font-weight: normal;">Fritextsök</h6>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Sök på nyckelord eller ID..."
+                        aria-label="Search">
+                </form>
+            </div>
+
+            <div style="padding-right: 10px;">
+                <h6 style="font-weight: normal;">Plats</h6>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Sök på ort, kommun, län..."
+                        aria-label="Search">
+                </form>
+            </div>
+        </div>
+
+        <hr style="color: #a9a9a97a;">
+
+        <div style="display: flex; flex-direction: row;">
+            <div style="padding-right: 10px;">
+                <h6 style="font-weight: normal;">Inriktning</h6>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Välj en eller flera..."
+                        aria-label="Search">
+                </form>
+            </div>
+
+            <div style="padding-right: 10px;">
+                <h6 style="font-weight: normal;">Ras</h6>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Välj en eller flera..."
+                        aria-label="Search">
+                </form>
+            </div>
+        </div>
+
+        <hr style="color: #a9a9a97a;">
+
+        <div style="display: flex; flex-direction: row;">
+            <div style="padding-right: 40px;">
+                <h6 style="font-weight: normal;">Ålder</h6>
+                <form class="d-flex">
+                    <button style="margin-right: 5px; background: white; border-color: #d8dde1;"
+                        class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Från</button>
+                    <button style="background: white; border-color: #d8dde1;"
+                        class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Till</button>
+                </form>
+            </div>
+
+            <div>
+                <h6 style="font-weight: normal;">Storlek</h6>
+                <form class="d-flex">
+                    <button style="margin-right: 5px; background: white; border-color: #d8dde1;"
+                        class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Från</button>
+                    <button style="background: white; border-color: #d8dde1;"
+                        class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Till</button>
+                </form>
+            </div>
+        </div>
+
+        <hr style="color: #a9a9a97a;">
+
+        <div style="display: flex; flex-direction: row;">
+            <div style="padding-right: 40px;">
+                <h6 style="font-weight: normal;">Kön</h6>
+                <div style="    border: 1px solid gainsboro; display: flex; flex-direction: row; padding: 10px;">
+                    <div style="padding-right: 10px;" class=" form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hingst
+                        </label>
+                    </div>
+                    <div style="padding-right: 10px;" class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Sto
+                        </label>
+                    </div>
+                    <div style="padding-right: 10px;" class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Valack
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr style="color: #a9a9a97a;">
+
+        <div style="display: flex; flex-direction: row;">
+            <div style="padding-right: 40px;">
+                <h6 style="font-weight: normal;">Pris</h6>
+                <form class="d-flex">
+                    <button style="margin-right: 5px; background: white; border-color: #d8dde1;"
+                        class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Från</button>
+                    <button style="background: white; border-color: #d8dde1;"
+                        class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Till</button>
+                </form>
+            </div>
+        </div>
+
+        <hr style="color: #a9a9a97a;">
+
+        <div>
+            <div style="display: flex; justify-content: space-between; padding: 0px 0;">
+                <h6>Typ av Säljare</h6>
+            </div>
+    
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a
+                        style="background: #2d7f49; color: white; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                        class="page-link" href="#">Alla</a></li>
+                    <li class="page-item"><a
+                        style="background: white; color: #2d7f49; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                        class="page-link" href="#">Privatperson</a></li>
+                    <li class="page-item"><a
+                            style="background: white; color: #2d7f49; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                            class="page-link" href="#">Företag</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+
+
+    <hr style="margin: 20px 200px;">
+
     <div style="display: flex; justify-content: space-between;" class="container-fluid">
         <div style="padding: 0px 0;">
             <h5>Hästar Säljes</h5>
@@ -180,23 +337,136 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container-fluid">
-        <div style="background: #fffdf3;" class="card mb-3" style="max-width: 540px;">
+        <div style="cursor: pointer; background: #fffdf3;" class="card mb-3" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
-                <img src="Images/horsesForSale/horseInGrass.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 style="color: #007f49;" class="card-title">Supersöt Liten Tjej</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="col-md-4">
+                    <img src="Images/horsesForSale/horseInGrass.jpg" class="img-fluid rounded-start" alt="...">
                 </div>
-              </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h5 style="margin-bottom: 0; color: #007f49;" class="card-title">Supersöt Liten Tjej</h5>
+                            <h5 style="margin-bottom: 0; color: #007f49;" class="card-title">30 000 kr</h5>
+                        </div>
+                        <p style="font-size: 15px; color: black;" class="card-title">Helsingborg | Allround | Arabian
+                            Horse</p>
+                        <p class="card-text">Intressekoll!
+                            Snygg och rejäl 2,5 års valack (född 2019), kastrerad okt-20, blir maxad C ponny. Tomacs
+                            Fragolino efter pappa gångartshingsten Stackarps Diplomat med mycket vinster och
+                            placeringar i dressyren, många guld på utställning.</p>
+
+                        <div style="display: flex;">
+                            <div style="padding-right: 10px;">
+                                <i style="color: #007f49;" class="fas fa-horse"></i>
+                                105cm
+                            </div>
+
+                            <div style="padding-right: 10px;">
+                                <i style="color: rgb(74 144 226);" class="fas fa-mars"></i>
+                                Male
+                            </div>
+
+                            <div>
+                                <i style="color: #007f49;" class="fas fa-calendar-alt"></i>
+                                10 år
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
     </div>
+
+    <div class="container-fluid">
+        <div style="cursor: pointer; background: #fffdf3;" class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Images/horsesForSale/pony.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h5 style="margin-bottom: 0; color: #007f49;" class="card-title">Två Ponies</h5>
+                            <h5 style="margin-bottom: 0; color: #007f49;" class="card-title">25 000 kr</h5>
+                        </div>
+                        <p style="font-size: 15px; color: black;" class="card-title">Helsingborg | Allround | Shetland
+                            Pony
+                        </p>
+                        <p class="card-text">Intressekoll!
+                            Snygg och rejäl 2,5 års valack (född 2019), kastrerad okt-20, blir maxad C ponny. Tomacs
+                            Fragolino efter pappa gångartshingsten Stackarps Diplomat med mycket vinster och
+                            placeringar i dressyren, många guld på utställning.</p>
+
+                        <div style="display: flex;">
+                            <div style="padding-right: 10px;">
+                                <i style="color: #007f49;" class="fas fa-horse"></i>
+                                105cm
+                            </div>
+
+                            <div style="padding-right: 10px;">
+                                <i style="color: rgb(74 144 226);" class="fas fa-mars"></i>
+                                Male
+                            </div>
+
+                            <div>
+                                <i style="color: #007f49;" class="fas fa-calendar-alt"></i>
+                                10 år
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div style="cursor: pointer; background: #fffdf3;" class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Images/horsesForSale/ponyHorse.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <div style="display: flex; justify-content: space-between;">
+                            <h5 style="margin-bottom: 0; color: #007f49;" class="card-title">Söt Liten Häst</h5>
+                            <h5 style="margin-bottom: 0; color: #007f49;" class="card-title">15 000 kr</h5>
+                        </div>
+                        <p style="font-size: 15px; color: black;" class="card-title">Helsingborg | Allround | Shetland
+                            Pony
+                        </p>
+                        <p class="card-text">Intressekoll!
+                            Snygg och rejäl 2,5 års valack (född 2019), kastrerad okt-20, blir maxad C ponny. Tomacs
+                            Fragolino efter pappa gångartshingsten Stackarps Diplomat med mycket vinster och
+                            placeringar i dressyren, många guld på utställning.</p>
+
+                        <div style="display: flex;">
+                            <div style="padding-right: 10px;">
+                                <i style="color: #007f49;" class="fas fa-horse"></i>
+                                105cm
+                            </div>
+
+                            <div style="padding-right: 10px;">
+                                <i style="color: rgb(74 144 226);" class="fas fa-mars"></i>
+                                Male
+                            </div>
+
+                            <div>
+                                <i style="color: #007f49;" class="fas fa-calendar-alt"></i>
+                                10 år
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
