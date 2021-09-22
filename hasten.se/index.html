@@ -17,10 +17,10 @@
     body {
         background: #f7f7f7;
     }
-    
+
     @media screen and (min-width: 1276px) {
         .container-fluid {
-            margin: 0 200px;
+            padding: 0 200px;
         }
 
         #ulList {
@@ -43,8 +43,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="ulList" class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Hästar
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,8 +58,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Utrustning
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -73,8 +73,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Tjänster
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -88,8 +88,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Gårdar
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -103,8 +103,8 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a style="font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a style="font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Företag
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -123,11 +123,13 @@
                         <i style="padding-right: 5px;" class="fas fa-upload"></i>
                         Skapa Annons
                     </button>
-                    <button class="btn btn-outline-success" style="margin-right: 10px; color: white; font-size: 22px; border: none;">
+                    <button class="btn btn-outline-success"
+                        style="margin-right: 10px; color: white; font-size: 22px; border: none;">
                         <i class="far fa-envelope"></i>
                     </button>
-                    <button class="btn btn-outline-success" style="color: black; background: white; border: none; border-radius: 50px; font-weight: 500; padding: 0 18px;"">
-                        <i style="padding-right: 5px;" class="fas fa-user-circle"></i>
+                    <button class="btn btn-outline-success"
+                        style="color: black; background: white; border: none; border-radius: 50px; font-weight: 500; padding: 0 18px;"">
+                        <i style=" padding-right: 5px;" class="fas fa-user-circle"></i>
                         Logga In/Skapa Konto
                     </button>
                 </form>
@@ -135,12 +137,66 @@
         </div>
     </nav>
 
-    <nav class="navbar" style="background: #fbfbfc;">
+    <nav class="container-fluid navbar" style="background: #fbfbfc;">
         <div style="padding: 0 14px;" class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: #007f49; font-weight: 500; font-size: 16px;">Start / Hästar</a>
+            <a class="navbar-brand" href="#" style="color: #007f49; font-weight: 500; font-size: 16px;">Start /
+                Hästar</a>
         </div>
-      </nav>
+    </nav>
 
+    <div style="color: grey; text-align: right; display: flex; flex-direction: column; font-weight: lighter;"
+        class="container-fluid">
+        Annons
+        <img style="object-fit: cover; height: 200px; cursor: pointer;" src="Images/adBanner/lycamobileAd.jpg"
+            class="img-fluid" alt="Responsive image">
+    </div>
+
+    <hr style="margin: 20px 200px;">
+
+    <div style="display: flex; justify-content: space-between;" class="container-fluid">
+        <div style="padding: 0px 0;">
+            <h5>Hästar Säljes</h5>
+            <hr style="margin: 0; width: 25px; background: #fbaa18; height: 3px;">
+            <p style="color: darkgrey;">Antal: 3095</p>
+        </div>
+
+        <div style="display: flex; padding: 0px 0;">
+            <h6 style="cursor: pointer; padding-right: 15px; color: #007f49;">
+                <i class="fas fa-save"></i>
+                Spara Sökning
+            </h6>
+
+            <div style="display: flex; padding: 0px 0;">
+                <h6 style="color: darkgrey;">
+                    Sortera
+                </h6>
+
+                <select style="height: 25px; margin-left: 10px;" name="" id="">
+                    <option value="volvo">Senast Först</option>
+                    <option value="saab">Billigast Först</option>
+                    <option value="mercedes">Dyrast Först</option>
+                    <option value="audi">Mest Populärast</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div style="background: #fffdf3;" class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Images/horsesForSale/horseInGrass.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 style="color: #007f49;" class="card-title">Supersöt Liten Tjej</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 </body>
 
 </html>
