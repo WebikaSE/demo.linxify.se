@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hästnet.se | Köp och sälj hästar, ridutrustning, transport och gårdar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/0c4707a38a.js" crossorigin="anonymous"></script>
+    <script src="/hasten.se/js/bootstrap.js"></script>
+</head>
+
+<style>
+    body {
+        background: #f7f7f7;
+    }
+    
+    @media screen and (min-width: 1276px) {
+        .container-fluid {
+            margin: 0 200px;
+        }
+
+        #ulList {
+            padding-left: 20px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: rgba(0,127,73,.95);">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="navbar-brand" src="Images/logo-small.png" alt="Hästnet Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="ulList" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hästar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Utrustning
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tjänster
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gårdar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Företag
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success"
+                        style="background: #ffab40; margin-right: 10px; color: white; font-weight: 500; width: 180px; border: 0; border-radius: 50px; height: 45px;">
+                        <i style="padding-right: 5px;" class="fas fa-upload"></i>
+                        Skapa Annons
+                    </button>
+                    <button class="btn btn-outline-success" style="margin-right: 10px; color: white; font-size: 22px; border: none;">
+                        <i class="far fa-envelope"></i>
+                    </button>
+                    <button class="btn btn-outline-success" style="color: black; background: white; border: none; border-radius: 50px; font-weight: 500; padding: 0 18px;"">
+                        <i style="padding-right: 5px;" class="fas fa-user-circle"></i>
+                        Logga In/Skapa Konto
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar" style="background: #fbfbfc;">
+        <div style="padding: 0 14px;" class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: #007f49; font-weight: 500; font-size: 16px;">Start / Hästar</a>
+        </div>
+      </nav>
+
+</body>
+
+</html>
