@@ -179,9 +179,17 @@
 
                 #horseForSaleDescription {
                     padding-bottom: 15px;
-                } 
+                }
             }
 
+            #beforePayment:hover {
+                background: #007f49 !important;
+                color: white !important;
+            }
+
+            #beforePayment:hover>i {
+                color: gainsboro !important;
+            }
         </style>
 
         <div id="horseForSale" style="display: flex;">
@@ -219,10 +227,16 @@
 
                 <hr style="color: #a9a9a97a;">
 
-                <div id="horseForSaleDescription">
+                <div style="padding-right: 5px;" id="horseForSaleDescription">
                     Intressekoll! Snygg och rejäl 2,5 års valack (född 2019), kastrerad okt-20, blir maxad C ponny.
                     Tomacs Fragolino efter pappa gångartshingsten Stackarps Diplomat med mycket vinster och placeringar
-                    i dressyren, många guld på utställning.
+                    i dressyren, många guld på utställning. Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                    survived not only five centuries, but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                    PageMaker including versions of Lorem Ipsum.
                 </div>
             </div>
 
@@ -271,19 +285,47 @@
                         type="button" class="btn btn-outline-primary"><i style="padding-right: 5px;"
                             class="fas fa-phone"></i> Visa Telefonnummer</button>
                     <button
-                        style="border: 1px solid #007f49; background: #007f49; font-weight: 400; color: white; border-radius: 15px;"
+                        style="margin-bottom: 10px; border: 1px solid #007f49; background: #007f49; font-weight: 400; color: white; border-radius: 15px;"
                         type="button" class="btn btn-outline-primary"><i style="padding-right: 5px;"
                             class="far fa-envelope"></i> Skicka Meddelande</button>
+                    <a style="text-align: center; color: #007f49; text-decoration: none; font-weight: 400;" href=""><i
+                            style="padding-right: 5px;" class="fas fa-external-link-alt"></i>Fler annonser från säljaren
+                        (1)</a>
 
                 </div>
 
                 <hr style="color: #a9a9a97a;">
 
                 <div>
-                    <a href="/linxifypay/index.html">
-                        <img style="border-radius: 15px; width: 270px; height: auto;" src="/images/Pictures for Linxify Portal Links/PayWithLinxify.png" alt="">
-                    </a>
+                    <div style="border-bottom: 1px solid gainsboro;">
+                        <h6 style="color: darkslategrey; font-weight: 400; font-size: 15px;">Inför ditt Köp</h6>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; padding-top: 10px;">
+                        <button id="beforePayment"
+                            style="background: none; color: black; font-weight: bold; font-size: 15px; border-radius: 1px; border: 1px solid gainsboro; padding: 15px; text-align: left;"
+                            type="button" class="btn btn-primary btn-lg"><i style="color: #007f49; padding-right: 5px;"
+                                class="fas fa-check-circle"></i>Försäkra din häst - Tryggt och Hållbart <span
+                                style="font-weight: 400;">- Läs mer</span></button>
+                        <button id="beforePayment"
+                            style="background: none; color: black; font-weight: bold; font-size: 15px; border-radius: 1px; border: 1px solid gainsboro; padding: 15px; text-align: left;"
+                            type="button" class="btn btn-primary btn-lg"><i style="color: #007f49; padding-right: 5px;"
+                                class="fas fa-check-circle"></i>Veterinärbesiktning <span style="font-weight: 400;">-
+                                Läs mer</span></button>
+
+                        <a style="text-align: center; padding-top: 20px;" href="/linxifypay/index.html">
+                            <img style="border-radius: 15px; width: 270px; height: auto;"
+                                src="/images/Pictures for Linxify Portal Links/PayWithLinxify.png" alt="">
+                        </a>
+                        <p style="text-align: center; font-size: 13px; padding-top: 8px; color: grey;">Ett tryggt köp
+                            med Linxify utan krångel! - <span style="cursor: pointer; text-decoration: underline;">Läs
+                                mer</span></p>
+                    </div>
+
                 </div>
+
+
+
 
             </div>
 
