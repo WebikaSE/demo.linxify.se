@@ -15,7 +15,12 @@
 
 <style>
     body {
-        background: #f7f7f7;
+        /* background: #f7f7f7; */
+        background: white;
+    }
+
+    .text-reset {
+        text-decoration: none;
     }
 
     @media screen and (min-width: 1276px) {
@@ -288,15 +293,15 @@
             <div style="display: flex; justify-content: space-between; padding: 0px 0;">
                 <h6>Typ av Säljare</h6>
             </div>
-    
+
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
                     <li class="page-item"><a
-                        style="background: #2d7f49; color: white; padding-left: 35px; padding-right: 35px; font-weight: 500;"
-                        class="page-link" href="#">Alla</a></li>
+                            style="background: #2d7f49; color: white; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                            class="page-link" href="#">Alla</a></li>
                     <li class="page-item"><a
-                        style="background: white; color: #2d7f49; padding-left: 35px; padding-right: 35px; font-weight: 500;"
-                        class="page-link" href="#">Privatperson</a></li>
+                            style="background: white; color: #2d7f49; padding-left: 35px; padding-right: 35px; font-weight: 500;"
+                            class="page-link" href="#">Privatperson</a></li>
                     <li class="page-item"><a
                             style="background: white; color: #2d7f49; padding-left: 35px; padding-right: 35px; font-weight: 500;"
                             class="page-link" href="#">Företag</a></li>
@@ -328,7 +333,8 @@
                     Sortera
                 </h6>
 
-                <select style="height: 25px; margin-left: 10px;" name="" id="">
+                <select class="btn btn-outline-secondary dropdown-toggle"
+                    style="padding: 0; height: 25px; margin-left: 10px;" name="" id="">
                     <option value="volvo">Senast Först</option>
                     <option value="saab">Billigast Först</option>
                     <option value="mercedes">Dyrast Först</option>
@@ -466,6 +472,96 @@
         </div>
     </div>
 
+    <footer style="background: #f8f8fa;" class="text-center text-lg-starttext-muted">
+
+        <div class="container-fluid">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div style="color: darkgrey;" class="me-5 d-none d-lg-block">
+                    <span>Sveriges Största Hästsajt</span>
+                </div>
+
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 style="color: darkgrey;" class="text-uppercase fw-bold mb-4">
+                            Följ Hästnet
+
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset"><i style="padding-right: 5px;" class="fab fa-facebook-f"></i> Gilla oss på Facebook</a>
+                        </p>
+
+                        <p>
+                            <a href="#!" class="text-reset"><i style="padding-right: 5px;" class="fab fa-instagram"></i>Följ oss på Instagram</a>
+                        </p>
+                        <img style="padding-bottom: 5px; height: auto; width: 180px;" src="Images/availableOnAppStore.png" alt="">
+                        <img style="height: auto; width: 180px;" src="Images/getItOnGooglePlay.png" alt="">
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 style="color: darkgrey;" class="text-uppercase fw-bold mb-4">
+                            Kontakta Oss
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Kontakta Oss</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Marknadsföring</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tips & ideér</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Jobba hos oss</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 style="color: darkgrey;" class="text-uppercase fw-bold mb-4">
+                            Information
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Köpekontrakt häst</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vanliga Frågor</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Hästnet köp- och säljguide</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Användarvillkor</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Personuppgiftspolicy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Hantera val</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Artiklar</a>
+                        </p>
+                    </div>
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="border-top: 1px solid gainsboro; color: grey; background-color: rgb(248 248 250); padding: 12px 0!important; font-weight: 400; font-size: 15px;">
+            ©HästNet Sverige AB 2003 - 2021
+        </div>
+    </footer>
 
 </body>
 
