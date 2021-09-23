@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hästnet.se | Köp och sälj hästar, ridutrustning, transport och gårdar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/0c4707a38a.js" crossorigin="anonymous"></script>
+    <script src="/hasten.se/js/bootstrap.js"></script>
+</head>
+
+<style>
+    body {
+        /* background: #f7f7f7; */
+        background: white;
+    }
+
+    .text-reset {
+        text-decoration: none;
+    }
+
+    @media screen and (min-width: 1276px) {
+        .container-fluid {
+            padding: 0 200px;
+        }
+
+        #ulList {
+            padding-left: 20px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: rgba(0,127,73,.95);">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img class="navbar-brand" src="Images/logo-small.png" alt="Hästnet Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="ulList" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hästar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Utrustning
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tjänster
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="padding-right: 20px; font-weight: 500; color: white;" class="nav-link dropdown-toggle"
+                            href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gårdar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a style="font-weight: 500; color: white;" class="nav-link dropdown-toggle" href="#"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Företag
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success"
+                        style="background: #ffab40; margin-right: 10px; color: white; font-weight: 500; width: 180px; border: 0; border-radius: 50px; height: 45px;">
+                        <i style="padding-right: 5px;" class="fas fa-upload"></i>
+                        Skapa Annons
+                    </button>
+                    <button class="btn btn-outline-success"
+                        style="margin-right: 10px; color: white; font-size: 22px; border: none;">
+                        <i class="far fa-envelope"></i>
+                    </button>
+                    <button class="btn btn-outline-success"
+                        style="color: black; background: white; border: none; border-radius: 50px; font-weight: 500; padding: 0 18px;"">
+                        <i style=" padding-right: 5px;" class="fas fa-user-circle"></i>
+                        Logga In/Skapa Konto
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="container-fluid navbar" style="background: #fbfbfc;">
+        <div style="padding: 0 14px;" class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #007f49; font-weight: 500; font-size: 16px;">Start /
+                Hästar</a>
+        </div>
+    </nav>
+
+    <div style="color: grey; text-align: right; display: flex; flex-direction: column; font-weight: lighter;"
+        class="container-fluid">
+        Annons
+        <img style="object-fit: cover; height: 200px; cursor: pointer;" src="Images/adBanner/lycamobileAd.jpg"
+            class="img-fluid" alt="Responsive image">
+    </div>
+
+    <hr style="color: #a9a9a97a;">
+
+    <!-- Content between here to -->
+
+    <div class="container-fluid">
+        <div style="display: flex; flex-direction: row; justify-content: space-between;">
+            <h4>Superfin Häst</h4>
+            <h3 style="font-weight: bolder; color: #007f49;">15 000kr</h3>
+        </div>
+
+        <div>
+            <p style="color: darkgrey; font-weight: normal; font-size: 15px;">Annonsid: 1632698 | 5h | 925 Visningar |
+                12 Favoritmarkeringar</p>
+        </div>
+
+        <div style="display: flex;">
+            <div style="width: 500px; height: auto;" id="carouselExampleIndicators" class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/horsesForSale/horseInGrass.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/horsesForSale/horseInGrass.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/horsesForSale/horseInGrass.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <hr style="color: #a9a9a97a;">
+
+                <div>
+                    Intressekoll! Snygg och rejäl 2,5 års valack (född 2019), kastrerad okt-20, blir maxad C ponny.
+                    Tomacs Fragolino efter pappa gångartshingsten Stackarps Diplomat med mycket vinster och placeringar
+                    i dressyren, många guld på utställning.
+                </div>
+            </div>
+
+            <div style="border: 1px solid gainsboro; padding: 25px;">
+                <div style="padding-bottom: 10px;">
+                    <h6 style="color: darkgrey;">Kontakta Annonsör</h6>
+                </div>
+                <div style="padding-bottom: 10px; align-items: center; display: flex;">
+                    <img style="height: 50px; width: auto;" src="images/johnAppleseed.png" alt="">
+                    <h6 style="padding-left: 10px;">John Appleseed</h6>
+                </div>
+                <div>
+                    <p style="color: black;"><i style="color: darkgrey; padding-right: 10px;"
+                            class="fas fa-map-marked-alt"></i> Umeå, Västerbottens län, Sverige </p>
+                </div>
+                <div style="padding-bottom: 10px;">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="270" height="136" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=Ume%C3%A5&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://www.zipcodewiki.net">zipcodewiki.net</a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 136px;
+                                    width: 270px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">maps for websites</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 136px;
+                                    width: 270px;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="color: #a9a9a97a;">
+
+                <div style="display: flex; flex-direction: column;">
+                    <button style="margin-bottom: 10px; border-color: gainsboro; font-weight: 400; color: black;"
+                        type="button" class="btn btn-outline-primary"><i style="padding-right: 5px;"
+                            class="fas fa-phone"></i> Visa Telefonnummer</button>
+                    <button
+                        style="border: 1px solid #007f49; background: #007f49; font-weight: 400; color: white; border-radius: 15px;"
+                        type="button" class="btn btn-outline-primary"><i style="padding-right: 5px;"
+                            class="far fa-envelope"></i> Skicka Meddelande</button>
+
+                </div>
+
+                <hr style="color: #a9a9a97a;">
+
+                <div>
+                    <a href="/linxifypay/index.html">
+                        <img style="border-radius: 15px; width: 270px; height: auto;" src="/images/Pictures for Linxify Portal Links/PayWithLinxify.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- Here -->
+
+    <footer style="background: #f8f8fa;" class="text-center text-lg-starttext-muted">
+
+        <div class="container-fluid">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div style="color: darkgrey;" class="me-5 d-none d-lg-block">
+                    <span>Sveriges Största Hästsajt</span>
+                </div>
+
+                <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 style="color: darkgrey;" class="text-uppercase fw-bold mb-4">
+                            Följ Hästnet
+
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset"><i style="padding-right: 5px;"
+                                    class="fab fa-facebook-f"></i> Gilla oss på Facebook</a>
+                        </p>
+
+                        <p>
+                            <a href="#!" class="text-reset"><i style="padding-right: 5px;"
+                                    class="fab fa-instagram"></i>Följ oss på Instagram</a>
+                        </p>
+                        <img style="padding-bottom: 5px; height: auto; width: 180px;"
+                            src="Images/availableOnAppStore.png" alt="">
+                        <img style="height: auto; width: 180px;" src="Images/getItOnGooglePlay.png" alt="">
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 style="color: darkgrey;" class="text-uppercase fw-bold mb-4">
+                            Kontakta Oss
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Kontakta Oss</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Marknadsföring</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tips & ideér</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Jobba hos oss</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 style="color: darkgrey;" class="text-uppercase fw-bold mb-4">
+                            Information
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Köpekontrakt häst</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vanliga Frågor</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Hästnet köp- och säljguide</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Användarvillkor</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Personuppgiftspolicy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Hantera val</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Artiklar</a>
+                        </p>
+                    </div>
+                </div>
+        </section>
+
+        <div class="text-center p-4"
+            style="border-top: 1px solid gainsboro; color: grey; background-color: rgb(248 248 250); padding: 12px 0!important; font-weight: 400; font-size: 15px;">
+            ©HästNet Sverige AB 2003 - 2021
+        </div>
+    </footer>
+
+</body>
+
+</html>
