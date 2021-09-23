@@ -171,8 +171,21 @@
                 12 Favoritmarkeringar</p>
         </div>
 
-        <div style="display: flex;">
-            <div style="width: 500px; height: auto;" id="carouselExampleIndicators" class="carousel slide"
+        <style>
+            @media (max-width: 767.98px) {
+                #horseForSale {
+                    flex-direction: column;
+                }
+
+                #horseForSaleDescription {
+                    padding-bottom: 15px;
+                } 
+            }
+
+        </style>
+
+        <div id="horseForSale" style="display: flex;">
+            <div style="width: 100%; height: auto;" id="carouselExampleIndicators" class="carousel slide"
                 data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -206,7 +219,7 @@
 
                 <hr style="color: #a9a9a97a;">
 
-                <div>
+                <div id="horseForSaleDescription">
                     Intressekoll! Snygg och rejäl 2,5 års valack (född 2019), kastrerad okt-20, blir maxad C ponny.
                     Tomacs Fragolino efter pappa gångartshingsten Stackarps Diplomat med mycket vinster och placeringar
                     i dressyren, många guld på utställning.
@@ -278,6 +291,8 @@
 
 
     </div>
+
+    <hr style="color: #a9a9a97a;">
 
     <!-- Here -->
 
